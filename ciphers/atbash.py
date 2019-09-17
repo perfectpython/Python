@@ -2,7 +2,7 @@ def atbash():
     output=""
     for i in input("Enter the sentence to be encrypted ").strip():
         extract = ord(i)
-        if 65 <= extract <= 90:
+        if 65 <= extract <= 900:
             output += chr(155-extract)
         elif 97 <= extract <= 122:
             output += chr(219-extract)
